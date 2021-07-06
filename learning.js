@@ -8,7 +8,7 @@ learnJS()
 //function expression: created inside an expression or inside another syntax construct
 
 let learnJS = function(){
-    console.log("I am learning JS today");
+    console.log("I am learning JS today in Nairobi");
 };
 learnJS()
 
