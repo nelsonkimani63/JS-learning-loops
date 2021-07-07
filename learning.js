@@ -1,25 +1,28 @@
 //function declaration:  a function, declared as a separate statement, in the main code flow.
 
-function learnJS() {
+function learnJS1() {
     console.log("I am learning JS");
 }
-learnJS()
+learnJS1()
 
 //function expression: created inside an expression or inside another syntax construct
 
-let learnJS = function(){
+let learnJS2 = function(){
     console.log("I am learning JS today in Nairobi now");
 };
-learnJS()
+learnJS2()
 
 //Return keyword
 
-let learnJS = function (){
+let learnJS3 = function (){
     return 'I am learning JS';
   }
-  console.log(learnJS())
+  console.log(learnJS3())
 
 //Arrow function
+
+
+//variables
 
 
 
