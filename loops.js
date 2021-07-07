@@ -2,6 +2,8 @@
 const arr1  = [34, 78, 65, 67, 87, 90, 54, 34, 32, 54, 78, 54, 78];
 const arr2 = [56, 76, 65, 34, 12, 45, 90, 87, 66, 98, 56, 56, 56];
 
+//Initialize variables (sum1 and sum2) as 0 to store the values of the sums and use for loop to visit each element and add them to the sum of the arrays.
+
 //arr1
 let sum1 = 0; //declaring the variable 'sum1' to store the value of the sum of arr1
 
@@ -20,4 +22,4 @@ console.log(sum2);
 
 //sum of arr1 and arr2
 
-console.log(sum1+=sum2)
+console.log('The sum of the two arrays is: ' + (sum1+=sum2));
