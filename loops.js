@@ -15,8 +15,8 @@ console.log(sum1); // logs the value of the sum of arr1
 
 //arr2
 let sum2 = 0;
-for (let i = 0; i <arr2.length; i++) {
-    sum2 += arr2[i];
+for (let j = 0; j <arr2.length; j++) {
+    sum2 += arr2[j];
 }
 console.log(sum2);
 
@@ -35,18 +35,22 @@ for (let ev1 = 2; ev1<=44; ev1+=2) {
 //step 2: As long as is = or > than 0, the loop should continue
 //step 3: Decrement by 1 (--)
 console.log(arr1);
-for (let i = arr1.length-1; i>=0; i--) {
-    console.log(+ arr1[i]);  
+for (let k = arr1.length-1; k>=0; k--) {
+    console.log(+ arr1[k]);  
 }
 
 
 //summing elements in the same position of two arrays, assuming same array length
 const arr3 = [11, 12, 13, 14, 15,];
 const arr4 = [16, 17, 18, 19, 20,];
+const arr5 = [18, 45, 71, 22, 40,];
 
 let totals = [];
 
-for (var i=0; i<arr3.length; i++) {
-  totals.push(arr3[i] + arr4[i]) //Looped through the array and get the value for the same index from both arrays and add them up.
+for (let l=0; l<arr3.length; l++) {
+  totals.push(arr3[l] + arr4[l] + arr5[l]) //Looped through the array and got the value for the same index from both arrays and added them up.
 }
 console.log(totals);
+
+//Given a string change the every second letter to an uppercase ‘Z’. Assume there are no space.
+
