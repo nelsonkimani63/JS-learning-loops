@@ -58,3 +58,14 @@ function arrayReverse (array) {
     }
 }
 arrayReverse(arr_2);
+
+arr_2.push(45);
+console.log(arr_2);
+arr_2.shift();
+console.log(arr_2);
+arr_2.unshift(10);
+console.log(arr_2);
+arr_2.pop();
+console.log(arr_2);
+arr_2.push(88);
+console.log(arr_2);
