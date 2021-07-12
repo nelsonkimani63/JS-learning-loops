@@ -35,15 +35,31 @@ console.log(sumArr)
 
 //change the every second letter to an uppercase ‘Z’. Assume there are no space.
 let str1 = "javascript";  
-let changeSecond = str1.split(['']);
+let changeSecond = str1.split('');
+// ['j', 'Z', 'v', 'Z','s', 'Z', 'r', 'Z', 'p', 'Z']
 
 console.log(changeSecond);
 
 function upperZ (strZ) {
-    for (let x=0; x<strZ.length; x++) {
-        if ((x+1) % 2 == 0) {
+    for (let x=1; x<strZ.length; x+=2) {
+        //console.log(strZ[x])
+        changeSecond[x]='Z';
+    }
+}
 
-        }
+upperZ(changeSecond);
+//console.log(changeSecond.join(""));
+
+//even numbers
+// ['j', 'Z', 'v', 'Z','s', 'Z', 'r', 'Z', 'p', 'Z']
+function evenJs (evenNums) {
+    for(b=0;b<changeSecond.length; b++) {
+        if (b%2!==0) {
+            changeSecond[b] = 'Z';
+        } else changeSecond[b] = 'W';
 
     }
 }
+
+evenJs(changeSecond);
+console.log(changeSecond.join(''));
