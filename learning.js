@@ -3,14 +3,20 @@
 function learnJS1() {
     console.log("I am learning JS");
 }
-learnJS1()
+learnJavascript()
+
+
+function learnJavascript () {
+    console.log("I am learning Javascript today ");
+};
+learnJavascript()
 
 //function expression: created inside an expression or inside another syntax construct
 
-let learnJS2 = function(){
-    console.log("I am learning JS today in Nairobi now");
+let learnJavascript = function(){
+    console.log("I am learning Javascript today ");
 };
-learnJS2()
+learnJavascript()
 
 //Return keyword
 
